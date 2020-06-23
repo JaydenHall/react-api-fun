@@ -1,5 +1,6 @@
 import React from 'react'
 import request from 'superagent'
+import Meme from './Meme'
 
 class App extends React.Component {
 
@@ -38,6 +39,7 @@ class App extends React.Component {
         <p>{this.state.setUp}</p>
         <p>{this.state.delivery}</p> 
         <p>{this.state.joke}</p>
+        <Meme/>
       </>
     )
   }
